@@ -1,7 +1,10 @@
 [project]
 name = "time-locked-wallet"
-clarity_version = 2
-description = "Vault that allows withdrawals only after a specified block"
+description = "Enhanced time-locked wallet system with multi-vault support and improved security"
+authors = ["Your Name <your.email@example.com>"]
 
 [contracts.vault]
 path = "contracts/vault.clar"
+
+[contracts.multi-vault]
+path = "contracts/multi-vault.clar"
